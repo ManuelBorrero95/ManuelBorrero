@@ -91,3 +91,6 @@ counter-increment: item 1
     flex-flow: column;
     justify-content: center;
   }
+  .content{
+    padding: 0px 150px;
+  }
