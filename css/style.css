@@ -15,17 +15,16 @@
   width: 40px;
 }
 
-/* #bar1{
+#bar1{
   transform: rotate(0);
   position: static;
   transition: 1s ease-in-out; 
   margin-top: 0;
 }
 
-#bar1.cliccato {
+#bar1.clicked {
 
   position: absolute;
-  background-color: black !important;
   transform: rotate(45deg);
   transition: 1s ease-in-out; 
   margin-top:15px;
@@ -38,7 +37,7 @@
   transition: 1s ease-in-out 1ms; 
 }
 
-#bar2.cliccato {
+#bar2.clicked {
 
   opacity: 0;
   width: 0%; 
@@ -54,19 +53,18 @@
 }
 
 
-#bar3.cliccato {
+#bar3.clicked {
 
   position: absolute;
-  background-color: blue !important;
   transition: 1s ease-in-out; 
   transform: rotate(-45deg);
   margin-right: 25px; 
 } 
-*/
+
 #toglemenu{
   transition: 3s ease-in-out;
 }
-#toglemenu.cliccato{
+#toglemenu.clicked{
 
   top: 0;
   transition: 3s ease-in-out;

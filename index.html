@@ -19,8 +19,6 @@
 <body class="w-screen h-screen bg-gradient-to-r from-blue-700 to-indigo-600 box-border">
 
 
-
-
     <header class="w-screen fixed h-[80px] w[30px]lg: lg:px-[200px] lg:flex lg:justify-center lg:items-center">
 
         <div class="hamburger-menu">
@@ -28,7 +26,7 @@
             <div id="toglemenu" class="h-screen w-full bg-black opacity-80 relative top-[-850px]">
 
                 <div class="h-[50px] w-full  border-y-[1px]  border-x-white relative top-[53px] text-white flex justify-center items-center">About</div>
-                <div class="h-[50px] w-full  relative top-[53px] text-white flex justify-center items-center">Experience</div>
+                <div class="h-[50px] w-full  relative top-[60px] text-white flex justify-center items-center">Experience</div>
                 <div class="h-[50px] w-full  border-y-[1px]  border-x-white relative top-[53px] text-white flex justify-center items-center">Contact</div>
 
             </div>
@@ -39,10 +37,6 @@
                 <div id="bar2" class="bg-white h-[5px] w-[40px] rounded-lg"></div>
                 <div id="bar3" class="bg-white h-[5px] w-[40px] rounded-lg"></div>
             </div>
-
-
-
-
         </div>
 
 
@@ -68,71 +62,6 @@
                 CV</button>
 
         </nav>
-
     </header>
-
-    <script>
-
-       let ciccio =  document.getElementsByClassName("hamburger-cnt");
-    
-
-       ciccio[0].addEventListener("click",(e) =>
-       { 
-
-        let ciccini = ciccio[0].children;
-        
-        for(let i = 0; i < ciccini.length; i++)
-        {
-            ciccini[i].classList.toggle("cliccato");
-        }
-
-        document.getElementById("toglemenu").classList.toggle("cliccato");
-
-       });
-
-    </script>
 </body>
-
-<!-- <body>
-
-
-            <nav class="navbar">
-                <div class="navbar-container container">
-                    <input type="checkbox" name="" id="">
-                    <div class="hamburger-lines">
-                        <span class="line line1"></span>
-                        <span class="line line2"></span>
-                        <span class="line line3"></span>
-                    </div>
-                    <ul class="menu-items">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <h1 class="logo">MB</h1>
-            </nav>
-
-        <main class="main">
-
-            <section class="section presentation">
-                <div class="txt-container">
-                    <p>Hi, my name is</p>
-                </div>
-                <div class="txt-container">
-                    <h2 class="big-heading">Manuel Borrero.</h2>
-                </div>
-                <p>
-                    
-                </p>
-            </section>
-
-            
-        </main>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-</body> -->
-
 </html>
