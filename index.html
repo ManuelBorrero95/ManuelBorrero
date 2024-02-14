@@ -23,20 +23,22 @@
 
         <div class="hamburger-menu">
 
-            <div id="toglemenu" class="h-screen w-full bg-black opacity-80 relative top-[-850px]">
-
-                <div class="h-[50px] w-full  border-y-[1px]  border-x-white relative top-[53px] text-white flex justify-center items-center">About</div>
-                <div class="h-[50px] w-full  relative top-[60px] text-white flex justify-center items-center">Experience</div>
-                <div class="h-[50px] w-full  border-y-[1px]  border-x-white relative top-[53px] text-white flex justify-center items-center">Contact</div>
-
-            </div>
-
-
-            <div class="hamburger-cnt">
+            <div class="hamburger-cnt lg:hidden z-10">
                 <div id="bar1" class="bg-white h-[5px] w-[40px] rounded-lg"></div>
                 <div id="bar2" class="bg-white h-[5px] w-[40px] rounded-lg"></div>
                 <div id="bar3" class="bg-white h-[5px] w-[40px] rounded-lg"></div>
             </div>
+            <div id="toglemenu" class="h-screen w-full bg-black opacity-80 relative top-[-850px] clicked">
+
+                <div class="relative top-[50px]">
+                    <div class="h-[50px] w-full  border-y-[1px]  border-x-white  text-white flex justify-center items-center hover:bg-white hover:text-black">About</div>
+                    <div class="h-[50px] w-full  text-white flex justify-center items-center  hover:bg-white hover:text-black">Experience</div>
+                    <div class="h-[50px] w-full  border-y-[1px]  border-x-white text-white flex justify-center items-center  hover:bg-white hover:text-black ">Contact</div>
+                </div>
+
+
+            </div>
+
         </div>
 
 
