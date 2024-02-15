@@ -28,20 +28,25 @@
                 <div id="bar2" class="bg-white h-[5px] w-[40px] rounded-lg"></div>
                 <div id="bar3" class="bg-white h-[5px] w-[40px] rounded-lg"></div>
             </div>
-            <div id="toglemenu" class="h-screen w-full bg-black opacity-80 relative top-[-850px] clicked">
+            <div id="toglemenu" class="h-screen w-full bg-black opacity-80 relative top-[-850px]">
 
                 <div class="relative top-[50px]">
-                    <div class="h-[50px] w-full  border-y-[1px]  border-x-white  text-white flex justify-center items-center hover:bg-white hover:text-black">About</div>
-                    <div class="h-[50px] w-full  text-white flex justify-center items-center  hover:bg-white hover:text-black">Experience</div>
-                    <div class="h-[50px] w-full  border-y-[1px]  border-x-white text-white flex justify-center items-center  hover:bg-white hover:text-black ">Contact</div>
+                    <div class="h-[50px] w-full  border-y-[1px]  border-x-white  text-white flex justify-center items-center hover:bg-white hover:text-black">
+                        <a href="#about">About</a>
+                    </div>
+                    <div class="h-[50px] w-full  text-white flex justify-center items-center  hover:bg-white hover:text-black">
+                        
+                        <a href="#experience">Experience</a>
+                    </div>
+                    <div class="h-[50px] w-full  border-y-[1px]  border-x-white text-white flex justify-center items-center  hover:bg-white hover:text-black ">
+                        <a href="#contact">Contact</a>
+                    </div>
                 </div>
 
 
             </div>
 
         </div>
-
-
         <nav class="w-full h-[40px] content-between hidden lg:flex justify-between ">
 
             <div class="h-full w-[120px]">
@@ -56,7 +61,7 @@
                     <a class="font-sans font-semibold text-white text-lg" href="#experience">Experience</a>
                 </li>
                 <li class="m-[30px]">
-                    <a class=" font-sans font-semibold text-white text-lg" href="contact">Contact</a>
+                    <a class=" font-sans font-semibold text-white text-lg" href="#contact">Contact</a>
                 </li>
             </ul>
 
@@ -65,5 +70,49 @@
 
         </nav>
     </header>
+
+
+    <main class=" flex justify-center items-center flex-col h-full">
+
+
+        <div class="bg-white mx-[20px]">
+            <div
+                class="presentation top-[150px] text-white flex justify-center flex-col items-center bg-gradient-to-r from-blue-700 to-indigo-600 box-border m-0 p-0">
+
+                <h2 class="text-2xl font-semibold">Hi, my name is</h2>
+                <h2 class="text-xl">Manuel Borrero!</h2>
+                <h1 class="text-2xl font-extrabold">Software developer</h1>
+
+            </div>
+
+            <div id="about" class="About bg-white my-5">
+
+                <p class="text-xl text-slate-800">
+                    Hello there! I'm a young and ambitious software engineer with a passion for technology and a
+                    relentless
+                    Join me on this exciting journey of perpetual learning and technological exploration. Let's
+                    create,
+                    innovate, and make a lasting impact together!
+                </p>
+
+            </div>
+
+            <div id="experience" class="" >
+
+                <h3 class="text-xl font-extrabold">EXPERIENCE</h3>
+
+                <div class="card text-slate-800">
+                    <div class="">OverIT</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </main>
 </body>
+
 </html>
