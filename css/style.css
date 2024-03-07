@@ -10,6 +10,7 @@
 
 body{
   height: 100vh;
+  width: 100vw;
   font-family: "Poppins", sans-serif;
 }
 .container
@@ -73,12 +74,9 @@ header{
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
-
-
-.menu-inner-container a{
-  text-decoration: none;
+a{
+  text-decoration:  none;
 }
-
 
 .hamburger-cnt{
   position: absolute;
@@ -138,7 +136,7 @@ header{
 
 main{
 
-  height: 100%;  
+  height: 80%;  
   display: flex;
   flex-direction: column;
   background-color: white;;
@@ -184,6 +182,14 @@ main{
   flex-direction: column;
   align-items: center;
 }
+
+
+.slideshow-container{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
 .card
 {
   height: 400px;
@@ -193,7 +199,7 @@ main{
   border-radius: 25px;
   padding: 15px;
   margin-top: 15px ;
-  box-shadow: 2px -2px 1px 0px  var(--bgcolor);
+  box-shadow: 2px 5px 15px 5px  var(--bgcolor);
 }
 
 .label-work{
@@ -218,4 +224,38 @@ main{
 
 .label-work ul li{
   font-weight: 500;
+}
+
+.contact{
+  margin-top: 15px;
+}
+
+ion-icon{
+  color: black;
+font-size: 35px;
+}
+.contact-cnt{
+  margin-top: 10px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+.contact-cnt a {
+  margin-top: 15px;  
+}
+.phone{
+  display: flex;
+  align-items: center;
+}
+.phone img {
+  height: 25px;
+  width: 25px;
+}
+footer{
+/*   background-color: black; */
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
 }
